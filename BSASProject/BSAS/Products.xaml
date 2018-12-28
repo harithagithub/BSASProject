@@ -1,0 +1,57 @@
+﻿<Page x:Class="BSASGUI.Products"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp8"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" 
+      Background="AliceBlue"
+      Title="Products" Height="350" Width="600">
+
+   
+
+    <Grid >
+        <ListView Name="ProductsList">
+
+
+            <ListView.View>
+                <GridView>
+
+                    <GridViewColumn Header="Products" Width="200">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Price" Width="200">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Duration" Width="250 "  >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+
+                </GridView>
+            </ListView.View>
+
+        </ListView>
+
+
+
+
+
+           
+    </Grid>
+    
+</Page>

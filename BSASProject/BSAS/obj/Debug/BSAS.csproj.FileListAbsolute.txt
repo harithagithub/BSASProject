@@ -1,0 +1,53 @@
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\bin\Debug\WpfApp8.exe.config
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\bin\Debug\WpfApp8.exe
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\bin\Debug\WpfApp8.pdb
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\MainWindow.g.cs
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\App.g.cs
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\WpfApp8_MarkupCompile.cache
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\WpfApp8_MarkupCompile.lref
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\MainWindow.baml
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\WpfApp8.g.resources
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\WpfApp8.Properties.Resources.resources
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\BSAS.csproj.GenerateResource.cache
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\BSAS.csproj.CoreCompileInputs.cache
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\WpfApp8.exe
+C:\Users\janakirao\source\repos\WpfApp8\WpfApp8\obj\Debug\WpfApp8.pdb
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\WpfApp8.exe.config
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\WpfApp8.exe
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\WpfApp8.pdb
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\BSAS.csprojAssemblyReference.cache
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\MainWindow.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\App.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\WpfApp8_MarkupCompile.cache
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\WpfApp8_MarkupCompile.lref
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\MainWindow.baml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\WpfApp8.g.resources
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\WpfApp8.Properties.Resources.resources
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\BSAS.csproj.GenerateResource.cache
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\BSAS.csproj.CoreCompileInputs.cache
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\WpfApp8.exe
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\WpfApp8.pdb
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\Admin.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\Admin.baml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\Products.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\Products.baml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\staffDashboard.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\StaffDashboard.baml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\UserDashboard.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\UserDashboard.baml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\ManagerAppointments.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\ManagerDashboard.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\ManagerAppointments.baml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\ManagerDashboard.baml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\StaffAppointments.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\StaffAppointments.baml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\UserAppointments.g.cs
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\UserAppointments.baml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\EntityFramework.dll
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\EntityFramework.SqlServer.dll
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\EntityFramework.xml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\EntityFramework.SqlServer.xml
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\BSAS.csproj.CopyComplete
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\ClassLibrary3.dll
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\ClassLibrary3.pdb
+F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\ClassLibrary3.dll.config

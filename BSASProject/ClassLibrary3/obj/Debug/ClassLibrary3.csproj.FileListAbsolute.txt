@@ -1,0 +1,12 @@
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\bin\Debug\ClassLibrary3.dll.config
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\bin\Debug\EntityFramework.dll
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\bin\Debug\EntityFramework.SqlServer.dll
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\bin\Debug\EntityFramework.xml
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\bin\Debug\EntityFramework.SqlServer.xml
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\obj\Debug\ClassLibrary3.csprojAssemblyReference.cache
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.CoreCompileInputs.cache
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.CopyComplete
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+F:\Cloud Computing\GitRepo\Project_BSAS\ClassLibrary3\obj\Debug\ClassLibrary3.pdb
