@@ -81,7 +81,7 @@ namespace BSASGUI
 
                         }
 
-                        if (validatedUser.LevelId == 2)
+                        if (validatedUser.LevelId == 2)  
                         {
                             StaffDashboard SD = new StaffDashboard();
                             SD.user = validatedUser;
