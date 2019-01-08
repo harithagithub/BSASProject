@@ -48,6 +48,7 @@ namespace BSASGUI
         private void btnProduct_Click(object sender, RoutedEventArgs e)
         {
             Products p = new Products();
+          
             frmMain.Navigate(p);
         }
 
@@ -94,6 +95,7 @@ namespace BSASGUI
         private void btnAppointments_Click(object sender, RoutedEventArgs e)
         {
             ManagerAppointments MApp = new ManagerAppointments();
+           
             frmMain.Navigate(MApp);
         }
 

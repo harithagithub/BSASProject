@@ -24,6 +24,7 @@ namespace BSASGUI
     {
         DBEntities db = new DBEntities("metadata=res://*/DBModel.csdl|res://*/DBModel.ssdl|res://*/DBModel.msl;provider=System.Data.SqlClient;provider connection string='data source=192.168.178.48;initial catalog=DB;user id=Suser;password=password2015;MultipleActiveResultSets=True;App=EntityFramework'");
 
+        LoginProcess Lp = new LoginProcess();
         public MainWindow()
         {
             InitializeComponent();
@@ -40,7 +41,7 @@ namespace BSASGUI
             bool login = false;
             string currentUser = txtUserName.Text;
             string currentPassword = txtPasswordbox.Password;
-            bool credentialsValidated = ValidateUserInput(currentUser, currentPassword);
+            bool credentialsValidated = Lp.ValidateUserInput(currentUser, currentPassword);
 
             try
             {
@@ -69,29 +70,33 @@ namespace BSASGUI
                 {
                     CreateLogEntry("Login", "User logged in successfully", validatedUser.UserId, validatedUser.UserName);
 
-                    if (validatedUser.LevelId == 3)
+                    if (validatedUser.LevelId > 0)
                     {
-                        ManagerDashboard MD = new ManagerDashboard();
-                        MD.user = validatedUser;
-                        MD.ShowDialog();
-                        this.Hide();
+                        if (validatedUser.LevelId == 3)
+                        {
+                            ManagerDashboard MD = new ManagerDashboard();
+                            MD.user = validatedUser;
+                            MD.ShowDialog();
+                            this.Hide();
 
-                    }
+                        }
 
-                    if (validatedUser.LevelId == 2)
-                    {
-                        StaffDashboard SD = new StaffDashboard();
-                        SD.user = validatedUser;
-                        SD.ShowDialog();
-                        this.Hide();
-                    }
+                        if (validatedUser.LevelId == 2)
+                        {
+                            StaffDashboard SD = new StaffDashboard();
+                            SD.user = validatedUser;
+                            SD.ShowDialog();
+                            this.Hide();
+                        }
 
-                    if (validatedUser.LevelId == 1)
-                    {
-                        UserDashboard UD = new UserDashboard();
-                        UD.user = validatedUser;
-                        UD.ShowDialog();
-                        this.Hide();
+                        if (validatedUser.LevelId == 1)
+                        {
+                            UserDashboard UD = new UserDashboard();
+                            UD.user = validatedUser;
+                            UD.Owner = this;
+                            UD.ShowDialog();
+                            this.Hide();
+                        }
                     }
                 }
 
@@ -143,7 +148,7 @@ namespace BSASGUI
         /// <returns>
         /// validated user
         /// </returns>
-        private bool ValidateUserInput(string username, string password)
+       /*private bool ValidateUserInput(string username, string password)
         {
             bool validated = true;
             try
@@ -156,7 +161,7 @@ namespace BSASGUI
                 // check each character in username string , this assumes numbers are not allowed in username string
                 foreach (char ch in username)
                 {
-                    if (ch >= '0' || ch <= '9')
+                    if (ch >= '0' && ch <= '9')
                     {
                         validated = false;
                     }
@@ -175,7 +180,7 @@ namespace BSASGUI
             }
             return validated;
 
-        }
+        }*/
 
         /// <summary>
         /// validates user credentials against those in sql database

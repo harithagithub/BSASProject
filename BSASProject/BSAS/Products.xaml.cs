@@ -31,6 +31,7 @@ namespace BSASGUI
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
+            Pro.Clear();
             ProductsList.ItemsSource = Pro;
 
             foreach (var item in db.Products)
@@ -39,6 +40,11 @@ namespace BSASGUI
 
             }
 
+            ProductsList.Items.Refresh();
+
+
         }
+   
+       
     }
 }

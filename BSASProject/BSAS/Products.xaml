@@ -7,12 +7,13 @@
       mc:Ignorable="d" 
       d:DesignHeight="400" 
       Background="AliceBlue"
+      Loaded="Page_Loaded"
       Title="Products" Height="350" Width="600">
 
    
 
     <Grid >
-        <ListView Name="ProductsList">
+        <ListView Name="ProductsList" >
 
 
             <ListView.View>
@@ -21,7 +22,7 @@
                     <GridViewColumn Header="Products" Width="200">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding ProductId}"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
@@ -29,14 +30,14 @@
                     <GridViewColumn Header="Price" Width="200">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding Price}"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
                     <GridViewColumn Header="Duration" Width="250 "  >
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding Duration}"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>

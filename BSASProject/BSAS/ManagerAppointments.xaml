@@ -7,15 +7,20 @@
       mc:Ignorable="d" 
       Background="AliceBlue"
       d:DesignHeight="450" d:DesignWidth="800"
+      Loaded="Appts_Loaded"
       Title="ManagerAppointments">
 
 
 
-    <TabControl Margin="10,10" >
-        <TabItem Header="ViewAppointments"  Width="130"   HorizontalAlignment="Left" Height="31" >
+    <TabControl Margin="10,10"   >
+        <TabItem Header="ViewAppointments"  Width="130"   HorizontalAlignment="Left" Height="31"   >
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="44.447"/>
+                    <ColumnDefinition Width="23.383"/>
+                    <ColumnDefinition Width="12.617"/>
+                    <ColumnDefinition Width="24.085"/>
+                    <ColumnDefinition Width="199.915"/>
                     <ColumnDefinition Width="350"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
@@ -24,41 +29,41 @@
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
 
-                <ListView x:Name="lstAppointmetsList"  Grid.Row="0" Grid.ColumnSpan="2" Margin="10,0,0,0" >
+                <ListView x:Name="lstAppointmetsList"  Grid.Row="0" Grid.ColumnSpan="6" Margin="10,0,0,0" >
                     <ListView.View >
                         <GridView>
-                            <GridViewColumn Header="UserName" Width="120">
+                            <GridViewColumn Header="PhoneNo" Width="120">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding PhoneNo}"/>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
-                            <GridViewColumn Header="ProductName" Width="130">
+                            <GridViewColumn Header="UserName" Width="130">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding UserName}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="ProductId" Width="120"  >
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding ProductId}"/>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
                             <GridViewColumn Header="DateTime" Width="120"  >
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding DateTime}"/>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
-                            <GridViewColumn Header="Price" Width="120"  >
+                            <GridViewColumn Header="Price" Width="150"  >
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                            <GridViewColumn Header="PhoneNo" Width="150"  >
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                                        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding Price}"/>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
@@ -68,12 +73,12 @@
                     </ListView.View>
 
                 </ListView>
-                <Button x:Name="buttnCancel" Height="21" Content="Cancel Appointment" Width="130" Grid.Row="1"  Grid.Column="1"  HorizontalAlignment="Right"  />
+                <Button x:Name="buttnCancel" Height="21" Content="Cancel Appointment" Width="130" Grid.Row="1"  Grid.Column="5"  HorizontalAlignment="Right" Margin="0,75" Click ="click_CancelAppointment"  />
             </Grid>
         </TabItem>
-        </TabControl>
+    </TabControl>
 
-       
-        
-   
+
+
+
 </Page>

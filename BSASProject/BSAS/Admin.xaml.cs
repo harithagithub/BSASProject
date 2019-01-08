@@ -22,7 +22,7 @@ namespace BSASGUI
     public partial class Admin : Page
     {
 
-        DBEntities db = new DBEntities("metadata=res://*/BSASModelEntities.csdl|res://*/BSASModelEntities.ssdl|res://*/BSASModelEntities.msl;provider=System.Data.SqlClient;provider connection string='data source=192.168.178.48;initial catalog=DB;user id=Suser; password = pasword2015;MultipleActiveResultSets=True;App=EntityFramework'");
+        DBEntities db = new DBEntities("metadata=res://*/DBModel.csdl|res://*/DBModel.ssdl|res://*/DBModel.msl;provider=System.Data.SqlClient;provider connection string='data source=192.168.178.48;initial catalog=DB;user id=Suser;password=password2015;MultipleActiveResultSets=True;App=EntityFramework'");
 
         List<User> users = new List<User>();
         List<Log> logs = new List<Log>();
@@ -91,10 +91,10 @@ namespace BSASGUI
 
         }
 
-        private void TabControl_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+       /* private void TabControl_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
         {
 
-        }
+        }*/
 
         private void cbAccesslevel_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -106,10 +106,10 @@ namespace BSASGUI
 
         }
 
-        private void cbAccesslevel_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+       /* private void cbAccesslevel_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
         {
 
-        }
+        }*/
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
@@ -188,7 +188,7 @@ namespace BSASGUI
             lstUserList.Items.Refresh();
         }
 
-        private void cbAccesslevel_SelectionChanged_2(object sender, SelectionChangedEventArgs e)
+        private void Accesslevel_SelectionChanged_2(object sender, SelectionChangedEventArgs e)
         {
 
         }
@@ -234,12 +234,14 @@ namespace BSASGUI
 
         private void deleteSelectedUser_Click(object sender, RoutedEventArgs e)
         {
-            stkUserPanel.Visibility = Visibility.Visible;
+            //stkUserPanel.Visibility = Visibility.Visible;
+            //User selectedUser = users.ElementAt(lstUserList.SelectedIndex);
+
             db.Users.RemoveRange(db.Users.Where(t => t.UserId == selectedUser.UserId));
             int saveSuccess = db.SaveChanges();
             if (saveSuccess == 1)
             {
-                MessageBox.Show("User Modified Successfully", "Save to database", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("User Deleted Successfully", "Save to database", MessageBoxButton.OK, MessageBoxImage.Information);
                 RefreshUserList();
                 ClearUserDetails();
                 stkUserPanel.Visibility = Visibility.Collapsed;

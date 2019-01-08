@@ -30,16 +30,48 @@ namespace BSASGUI
             InitializeComponent();
         }
 
-        private void Page_Loaded(object sender, RoutedEventArgs e)
+        private void Appts_Loaded(object sender, RoutedEventArgs e)
         {
-            lstAppointmetsList.ItemsSource =App;
-            
+            lstAppointmetsList.ItemsSource = App;
+
             foreach (var item in db.Appointments)
             {
                 App.Add(item);
 
             }
-            
+            lstAppointmetsList.Items.Refresh();
+        }
+
+        private void RefreshUserList()
+        {
+            lstAppointmetsList.ItemsSource = App;
+            App.Clear();
+            foreach (var item in db.Appointments)
+            {
+                App.Add(item);
+            }
+            lstAppointmetsList.Items.Refresh();
+        }
+
+        private void click_CancelAppointment(object sender, RoutedEventArgs e)
+        {
+
+            Appointment selectedApp = App.ElementAt(lstAppointmetsList.SelectedIndex);
+            db.Appointments.RemoveRange(db.Appointments.Where(t => t.PhoneNo == selectedApp.PhoneNo));
+            int saveSuccess = db.SaveChanges();
+            if (saveSuccess == 1)
+            {
+                MessageBox.Show("Appointment Cancelled Successfully", "Save to database", MessageBoxButton.OK, MessageBoxImage.Information);
+                RefreshUserList();
+               // ClearUserDetails();
+                
+            }
+
+            else
+            {
+                MessageBox.Show("Problem saving User Record", "Delete from database", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+            RefreshUserList();
         }
     }
 }

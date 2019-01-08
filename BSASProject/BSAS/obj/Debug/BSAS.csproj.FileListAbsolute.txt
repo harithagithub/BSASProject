@@ -51,3 +51,42 @@ F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\obj\Debug\BSAS.csproj.CopyComplete
 F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\ClassLibrary3.dll
 F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\ClassLibrary3.pdb
 F:\Cloud Computing\GitRepo\Project_BSAS\BSAS\bin\Debug\ClassLibrary3.dll.config
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\WpfApp8.exe.config
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\WpfApp8.exe
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\WpfApp8.pdb
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\ClassLibrary3.dll
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\EntityFramework.dll
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\EntityFramework.SqlServer.dll
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\ClassLibrary3.pdb
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\ClassLibrary3.dll.config
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\EntityFramework.xml
+F:\RepoBSAS\BSASProject\BSAS\bin\Debug\EntityFramework.SqlServer.xml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\BSAS.csprojAssemblyReference.cache
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\Admin.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\MainWindow.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\ManagerAppointments.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\ManagerDashboard.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\Products.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\StaffAppointments.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\StaffDashboard.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\UserAppointments.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\UserDashboard.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\App.g.cs
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\WpfApp8_MarkupCompile.cache
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\WpfApp8_MarkupCompile.lref
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\Admin.baml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\MainWindow.baml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\ManagerAppointments.baml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\ManagerDashboard.baml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\Products.baml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\StaffAppointments.baml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\StaffDashboard.baml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\UserAppointments.baml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\UserDashboard.baml
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\WpfApp8.g.resources
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\WpfApp8.Properties.Resources.resources
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\BSAS.csproj.GenerateResource.cache
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\BSAS.csproj.CoreCompileInputs.cache
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\BSAS.csproj.CopyComplete
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\WpfApp8.exe
+F:\RepoBSAS\BSASProject\BSAS\obj\Debug\WpfApp8.pdb

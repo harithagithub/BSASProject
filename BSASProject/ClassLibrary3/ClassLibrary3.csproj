@@ -73,6 +73,7 @@
     <Compile Include="Log.cs">
       <DependentUpon>DBModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="LoginProcess.cs" />
     <Compile Include="Product.cs">
       <DependentUpon>DBModel.tt</DependentUpon>
     </Compile>

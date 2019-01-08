@@ -31,6 +31,7 @@ namespace BSASGUI
         {
             Products P = new Products();
             frmMain.Navigate(P);
+                      
         }
 
         private void btnAppointments_Clik(object sender, RoutedEventArgs e)

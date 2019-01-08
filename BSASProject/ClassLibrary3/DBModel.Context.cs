@@ -15,8 +15,8 @@ namespace ClassLibrary3
     
     public partial class DBEntities : DbContext
     {
-        public DBEntities(string connectionString)
-            : base(connectionString)
+        public DBEntities(string connection)
+            : base(connection)
         {
         }
     
